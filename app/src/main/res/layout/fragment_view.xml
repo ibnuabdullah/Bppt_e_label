@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=""
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
-        android:background="@color/white"/>
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_x="36dp"
+        android:layout_y="273dp"
+        android:text="Aplikasi Ini Masih Dalam Tahap Pengembangan"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp" />
 
-
-    <ListView
-        android:id="@+id/list_content"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:textColor="@color/colorPrimaryDark"/>
-
-</FrameLayout>
+</AbsoluteLayout>
 

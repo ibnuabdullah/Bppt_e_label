@@ -22,7 +22,7 @@ public class Menu extends AppCompatActivity {
     private String dataTransfer= "";
     private final String urllink = "https://jsonplaceholder.typicode.com";
     private final String bppt1 = "http://10.11.5.220";
-    private final String bppt = "http://192.168.43.39";
+    private final String bppt = "http://10.10.182.76";
 
     private String id, name, organization_name, business_criticity, location_name, status, brand_id, brand_name, model_name, asset_number, purchase_date, finalclass;
 
